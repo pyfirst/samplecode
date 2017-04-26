@@ -1,26 +1,584 @@
-number,name
-10255,Assembly Square
-10703,Creative Builder Box
-10704,Creative Box
-10706,Blue Creative Box
-10707,Red Creative Box
-10708,Green Creative Box
-10709,Orange Creative Box
-10730,Lightning McQueen Speed Launcher
-10731,Cruz Ramirez Race Simulator
-10732,Guido and Luigi's Pit Stop
-10733,Mater's Junkyard
-10734,Demolition Site
-10735,Police Truck Chase
-10736,Anna and Elsa's Frozen Playground
-10737,Batman vs. Mr. Freeze
-10738,Snow White's Forest Cottage
-10739,{?}
-10740,Fire Patrol Suitcase
-10742,Willy's Butte Speed Training
-10743,Smokey's Garage
-10744,Thunder Hollow Crazy 8 Race
-10745,{?}
-10746,Mia's Farm Suitcase
-10747,Andrea and Stephanie's Beach Holiday
-10823,Batwing Adventure
+number,name,theme,subtheme,rating
+10255,Assembly Square,Advanced Models,Modular Buildings,5.0
+10256,Fairground Carousel,Advanced Models,Fairground,
+10703,Creative Builder Box,Classic,,
+10704,Creative Box,Classic,,
+10706,Blue Creative Box,Classic,,3.0
+10707,Red Creative Box,Classic,,
+10708,Green Creative Box,Classic,,
+10709,Orange Creative Box,Classic,,
+10730,Lightning McQueen Speed Launcher,Juniors,Cars 3,
+10731,Cruz Ramirez Race Simulator,Juniors,Cars 3,
+10732,Guido and Luigi's Pit Stop,Juniors,Cars 3,
+10733,Mater's Junkyard,Juniors,Cars 3,
+10734,Demolition Site,Juniors,City,
+10735,Police Truck Chase,Juniors,City,
+10736,Anna and Elsa's Frozen Playground,Juniors,Disney Princess,
+10737,Batman vs. Mr. Freeze,Juniors,DC Comics Super Heroes,3.0
+10738,Snow White's Forest Cottage,Juniors,,
+10739,{?},Juniors,,
+10740,Fire Patrol Suitcase,Juniors,City,
+10742,Willy's Butte Speed Training,Juniors,Cars 3,
+10743,Smokey's Garage,Juniors,Cars 3,
+10744,Thunder Hollow Crazy 8 Race,Juniors,Cars 3,
+10745,{?},Juniors,,
+10746,Mia's Farm Suitcase,Juniors,Friends,
+10747,Andrea and Stephanie's Beach Holiday,Juniors,Friends,
+10823,Batwing Adventure,Duplo,,
+10832,Birthday Party,Duplo,,
+10833,Nursery School,Duplo,,
+10834,Pizzeria,Duplo,,
+10835,Family House,Duplo,,
+10836,Neighborhood,Duplo,,
+10837,Santa's Winter Holiday,Duplo,,
+10838,Pets,Duplo,,
+10839,{?},Duplo,,
+10840,{?},Duplo,,
+10841,{?},Duplo,,
+10842,Batcave Challenge,Duplo,Batman,
+10843,{Mickey Mouse in racing car},Duplo,Mickey and the Roadster Racers,
+10844,Minnie Mouse Bow-tique,Duplo,,
+10845,My First Carousel,Duplo,,
+10846,{?},Duplo,,
+10847,My First Number Train,Duplo,,
+10848,My First Building Blocks,Duplo,,
+10849,My First Plane,Duplo,,
+10850,My First Birthday Cake,Duplo,,
+10851,My First Bus,Duplo,,
+10852,My First Parrot,Duplo,,
+10853,Abundant Wildlife Creative Building Set,Duplo,,
+10854,Creative Box,Duplo,,
+10855,Cinderella's Magical Castle,Duplo,Disney Princess,
+10856,{?},Duplo,,
+10857,{?},Duplo,,
+10952,{?},Duplo,,
+11913,Nexo Knights: Build Your Own Adventure parts ,Nexo Knights,Miscellaneous,
+17101,Creative Toolbox,Boost,,
+21032,Sydney,Architecture,Skylines,
+21033,Chicago,Architecture,Skylines,
+21034,London,Architecture,Skylines,4.0
+21035,Solomon R. Guggenheim Museum,Architecture,Landmark Series,
+21036,Arc De Triomphe,Architecture,Landmark Series,
+21129,The Mushroom Island,Minecraft,Minifig-scale,
+21130,The Nether Railway,Minecraft,Minifig-scale,
+21131,The Ice Spikes,Minecraft,Minifig-scale,
+21132,Jungle Temple,Minecraft,Minifig-scale,
+21133,The Witch Hut,Minecraft,Minifig-scale,
+21134,The Waterfall Base,Minecraft,Minifig-scale,
+21135,The Crafting Box 2.0,Minecraft,Minifig-scale,
+21136,The Ocean Monument,Minecraft,Minifig-scale,
+21137,The Mountain Cave,Minecraft,Minifig-scale,
+21308,Adventure Time,Ideas,Licensed,
+21309,Apollo Saturn V,Ideas,,
+30323,My First Fish,Duplo,,
+30324,My Town {Random Bag},Duplo,,
+30324,My Town - Female,Duplo,,
+30324,My Town - Policeman,Duplo,,
+30324,My Town - Girl,Duplo,,
+30324,My Town - Cat,Duplo,,
+30324,My Town - Male,Duplo,,
+30338,Fire Car,Juniors,Fire,
+30351,Police Helicopter,City,Police,4.0
+30352,Police Car,City,Police,4.0
+30353,Tractor,City,Construction,
+30354,Hot Rod ,City,,3.0
+30355,Jungle ATV,City,Jungle,
+30376,Knighton Rider,Nexo Knights,Miscellaneous,
+30377,Motor Horse,Nexo Knights,,
+30378,Shrunken Headquarters,Nexo Knights,Miscellaneous,
+30400,Gymnastic Bar,Friends,,
+30401,Pool Foam Slide,Friends,Summer,
+30402,{Ski practice},Friends,Snow Resort,
+30425,CRU Master's Training Grounds,Ninjago,General,
+30426,Stealthy Swamp Airboat,Ninjago,The Hands of Time,
+30449,The Milano,Marvel Super Heroes,Guardians of the Galaxy Vol. 2,
+30475,Off Roader,Creator,,
+30476,Happy Turtle,Creator,,4.0
+30477,Chameleon,Creator,,
+30478,Santa Claus,Seasonal,Christmas,
+30496,U-Wing Fighter,Star Wars,Rogue One,
+30521,The Mini Batmobile,The LEGO Batman Movie,,
+30522,Batman in the Phantom Zone,The LEGO Batman Movie,,5.0
+30523,The Joker Battle Training,The LEGO Batman Movie,,
+30524,The Mini Batwing,The LEGO Batman Movie,Promotional,5.0
+30546,Krypto Saves the Day,DC Super Hero Girls,Promotional,
+30551,Cinderella's Kitchen,Disney,Cinderella,
+30607,Disco Batman - Tears of Batman ,The LEGO Batman Movie,Promotional,3.0
+30611,R2-D2,Star Wars,Promotional,
+30612,Batgirl,The LEGO Batman Movie,Promotional,
+31054,Blue Express ,Creator,,5.0
+31055,Red Racer,Creator,,
+31056,Green Cruiser,Creator,,
+31057,Air Blazer,Creator,,
+31058,Mighty Dinosaurs,Creator,,
+31059,Sunset Street Bike,Creator,,
+31060,Airshow Aces,Creator,,5.0
+31062,Robo Explorer,Creator,,5.0
+31063,Beachside Vacation,Creator,,
+31064,Island Adventures,Creator,,4.5
+31065,Park Street Townhouse,Creator,,4.0
+31066,Space Shuttle Explorer,Creator,,
+31067,Modular Poolside Holiday,Creator,,
+31068,Modular Modern Home,Creator,,
+31069,Modular Family Villa,Creator,,
+31070,Turbo Track Racer,Creator,,
+40171,Hedgehog Storage,Friends,Miscellaneous,
+40172,Brick Calendar,Miscellaneous,Desk accessory,5.0
+40174,LEGO Chess,Miscellaneous,,
+40175,{Policeman with cookie and stinger},City,Police,
+40234,Year of the Rooster,Creator,Chinese New Year,
+40236,Romantic Valentine Picnic,Seasonal,Valentine's Day,
+40237,Easter Egg Hunt,Seasonal,Easter,
+40238,Halloween,Seasonal,Halloween,
+40239,Narwhal,Promotional,Monthly Mini Model Build,5.0
+40240,Raccoon,Promotional,Monthly Mini Model Build,
+40241,Platypus,Promotional,Monthly Mini Model Build,
+40242,Chick,Promotional,Monthly Mini Model Build,
+40243,Car,Promotional,Monthly Mini Model Build,
+40244,Dragonfly,Promotional,Monthly Mini Model Build,
+40251,Mini Piggy Bank,Creator,,
+40252,Mini Volkswagen Beetle,Creator,,5.0
+40256,Create The World,City,,
+40265,Tic-Tac-Toe,Friends,,
+40266,Storage Box,Friends,Accessories,
+40267,{Cake and door},Duplo,,
+40268,R3-M2,Star Wars,Rogue One,
+41143,Berry's Kitchen,Disney,Palace Pets,
+41144,Petite's Royal Stable,Disney,Palace Pets,
+41145,Ariel and the Magical Spell,Disney,The Little Mermaid,
+41146,Cinderella's Enchanted Evening,Disney,Cinderella,
+41147,Anna's Snow Adventure,Disney,Frozen,
+41148,Elsa's Magical Ice Palace,Disney,Frozen,
+41149,Moana's Island Adventure,Disney,Moana,
+41150,Moana's Ocean Voyage,Disney,Moana,4.0
+41181,Naida's Gondola & the Goblin Thief,Elves,,
+41182,The Capture of Sophie Jones,Elves,,
+41183,The Goblin King's Evil Dragon,Elves,,4.0
+41184,Aira's Airship & the Amulet Chase,Elves,,
+41185,Magic Rescue from the Goblin Village,Elves,,
+41186,Azari & the Goblin Forest Escape,Elves,,
+41187,Rosalyn's Healing Hideout,Elves,,
+41188,Breakout from the Goblin King's Fortress,Elves,,
+41189,{?},Elves,,
+41230,Batgirl Batjet Chase,DC Super Hero Girls,,
+41231,Harley Quinn to the Rescue,DC Super Hero Girls,,
+41232,Super Hero High School,DC Super Hero Girls,,
+41233,Lashina Tank,DC Super Hero Girls,,
+41234,Bumblebee Helicopter,DC Super Hero Girls,,
+41235,Wonder Woman Dorm Room,DC Super Hero Girls,,
+41236,Harley Quinn Dorm,DC Super Hero Girls,,
+41237,Batgirl Secret Bunker,DC Super Hero Girls,,
+41238,Lena Luthor Kryptomite Factory,DC Super Hero Girls,,
+41239,Eclipso Dark Palace,DC Super Hero Girls,,
+41300,Puppy Championship,Friends,Dog Show,
+41301,Puppy Parade,Friends,Dog Show,
+41302,Puppy Pampering,Friends,Dog Show,
+41303,Puppy Playground,Friends,Dog Show,
+41304,Puppy Treats & Tricks,Friends,Dog Show,
+41305,Emma's Photo Studio,Friends,,
+41306,Mia's Beach Scooter,Friends,Summer,4.0
+41307,Olivia's Creative Lab,Friends,,
+41308,Stephanie's Friendship Cakes,Friends,,
+41309,Andrea's Musical Duet,Friends,,3.0
+41310,Heartlake Gift Delivery,Friends,Party,
+41311,Heartlake Pizzeria,Friends,,4.0
+41312,Heartlake Sports Centre,Friends,,
+41313,Heartlake Summer Pool,Friends,Summer,
+41314,Stephanie's House,Friends,,
+41315,Heartlake Surf Shop,Friends,Summer,
+41316,Andrea's Speedboat Transporter,Friends,Summer,
+41317,Sunshine Catamaran,Friends,Summer,
+41318,Heartlake Hospital,Friends,,
+41319,{Hot cocoa van},Friends,Snow Resort,
+41320,Heartlake Frozen Yogurt Shop,Friends,,
+41321,Snow Resort Off-Roader,Friends,Snow Resort,
+41322,Snow Resort Ice Rink,Friends,Snow Resort,
+41323,Snow Resort Chalet,Friends,Snow Resort,
+41324,Snow Resort Ski Lift,Friends,Snow Resort,
+41326,Friends Advent Calendar,Friends,Seasonal,
+41328,{?},Friends,,
+41329,{?},Friends,,
+41330,{?},Friends,,
+41585,Batman,BrickHeadz,DC Comics Super Heroes,
+41586,Batgirl,BrickHeadz,DC Comics Super Heroes,
+41587,Robin,BrickHeadz,DC Comics Super Heroes,
+41588,The Joker,BrickHeadz,DC Comics Super Heroes,
+41589,Captain America,BrickHeadz,Marvel Super Heroes,
+41590,Iron Man,BrickHeadz,Marvel Super Heroes,
+41591,Black Widow,BrickHeadz,Marvel Super Heroes,
+41592,The Hulk,BrickHeadz,Marvel Super Heroes,
+41593,Captain Jack Sparrow,BrickHeadz,Disney,
+41594,Captain Armando Salazar,BrickHeadz,Disney,
+41595,Belle,BrickHeadz,Disney,
+41596,Beast,BrickHeadz,Disney,
+42057,Ultralight Helicopter,Technic,,
+42058,Stunt Bike,Technic,,5.0
+42059,Stunt Truck,Technic,,5.0
+42060,Roadwork Crew,Technic,,4.0
+42061,Telehandler,Technic,,4.0
+42062,Container Yard,Technic,,
+42063,BMW R 1200 GS Adventure,Technic,,
+42064,Ocean Explorer,Technic,,
+42065,RC Tracked Racer,Technic,,4.5
+42066,Air Race Jet,Technic,,
+42068,Airport Rescue Vehicle,Technic,,
+42069,Extreme Adventure,Technic,,
+42070,6x6 All Terrain Tow Truck,Technic,,
+45021,Our Town,Education,Duplo,
+60135,ATV Arrest,City,Police,
+60136,Police Starter Set,City,Police,5.0
+60137,Tow Truck Trouble,City,Police,5.0
+60138,High-speed Chase,City,Police,3.0
+60139,Mobile Command Center,City,Police,
+60140,Bulldozer Break-In,City,Police,
+60141,Police Station,City,Police,
+60142,Money Transporter,City,Police,3.0
+60143,Auto Transport Heist,City,Police,4.0
+60144,Race Plane,City,General,4.3
+60145,Buggy,City,Traffic,4.0
+60146,Stunt Truck,City,Traffic,
+60147,Fishing Boat,City,Harbour,4.5
+60148,ATV Race Team,City,Traffic,4.0
+60149,4x4 with Catamaran,City,Harbour,5.0
+60150,Pizza Van,City,Traffic,4.5
+60151,Dragster Transporter,City,Traffic,4.0
+60152,Sweeper & Excavator,City,Construction,
+60153,People Pack - Fun at the Beach,City,General,
+60154,Bus Station,City,Traffic,
+60155,City Advent Calendar,City,Seasonal,
+60156,Jungle Buggy,City,Jungle,
+60157,Jungle Starter Set,City,Jungle,
+60158,Jungle Cargo Helicopter ,City,Jungle,
+60159,Jungle Halftrack Mission,City,Jungle,
+60160,Jungle Mobile Lab,City,Jungle,
+60161,Jungle Exploration Site,City,Jungle,
+60162,Jungle Air Drop Helicopter,City,Jungle,
+60163,Coast Guard Starter Set,City,Coast Guard,
+60164,Sea Rescue Plane,City,Coast Guard,
+60165,4 x 4 Response Unit ,City,Coast Guard,
+60166,Heavy-Duty Rescue Helicopter,City,Coast Guard,
+60167,Coast Guard Head Quarters,City,Coast Guard,
+60168,Sailboat Rescue,City,Coast Guard,
+60169,Cargo Terminal,City,,
+66546,The LEGO Batman Movie Super Pack 2-in-1,The LEGO Batman Movie,Product Collection,
+70347,King's Guard Artillery,Nexo Knights,Season 3,
+70348,Lance's Twin Jouster,Nexo Knights,Season 3,5.0
+70349,Ruina's Lock & Roller,Nexo Knights,Season 3,4.3
+70350,The Three Brothers,Nexo Knights,Season 3,
+70351,Clay's Falcon Fighter Blaster,Nexo Knights,Season 3,
+70352,Jestro's Headquarters,Nexo Knights,Season 3,
+70353,The Heligoyle,Nexo Knights,Season 4,
+70354,Axl's Rumble Maker,Nexo Knights,Season 4,
+70355,Aaron's Rock Climber,Nexo Knights,Season 4,
+70356,The Stone Colossus of Ultimate Destruction,Nexo Knights,Season 4,
+70357,Knighton Castle,Nexo Knights,Season 4,
+70358,Aaron's Stone Destroyer,Nexo Knights,Season 3,
+70359,Lance vs. Lightning,Nexo Knights,Season 3,
+70361,Macy's Bot Drop Dragon,Nexo Knights,Season 4,
+70362,Battle Suit Clay,Nexo Knights,Battle Suits,
+70363,Battle Suit Macy,Nexo Knights,Battle Suits,
+70364,Battle Suit Aaron,Nexo Knights,Battle Suits,5.0
+70365,Battle Suit Axl,Nexo Knights,Battle Suits,
+70366,Battle Suit Lance,Nexo Knights,Battle Suits,
+70372,Combo NEXO Powers Wave 1,Nexo Knights,Combo NEXO Powers,4.0
+70373,Combo NEXO Powers Wave 2,Nexo Knights,Combo NEXO Powers,
+70606,Spinjitzu Training,The LEGO Ninjago Movie,,
+70607,Ninjago City Chase,The LEGO Ninjago Movie,,
+70608,Master Falls,The LEGO Ninjago Movie,,
+70609,Manta Ray Bomber,The LEGO Ninjago Movie,,
+70610,{?},The LEGO Ninjago Movie,,
+70611,Water Strider,The LEGO Ninjago Movie,,
+70612,Green Ninja Mech Dragon,The LEGO Ninjago Movie,,
+70613,{Garmadon's Shark Mech},The LEGO Ninjago Movie,,
+70614,Lightning Jet,The LEGO Ninjago Movie,,
+70615,Fire Mech,The LEGO Ninjago Movie,,
+70616,{Zane Tank},The LEGO Ninjago Movie,,
+70617,Temple of The Ultimate,The LEGO Ninjago Movie,,
+70618,Destiny's Bounty,The LEGO Ninjago Movie,,
+70620,{D2C Ninjago City},The LEGO Ninjago Movie,,
+70621,The Vermillion Attack,Ninjago,The Hands of Time,
+70622,Desert Lightning,Ninjago,The Hands of Time,4.0
+70623,Destiny's Shadow,Ninjago,The Hands of Time,5.0
+70624,Vermillion Invader,Ninjago,The Hands of Time,4.0
+70625,Samurai VXL,Ninjago,The Hands of Time,
+70626,Dawn of Iron Doom,Ninjago,The Hands of Time,5.0
+70627,Dragon's Forge,Ninjago,The Hands of Time,
+70900,The Joker Balloon Escape,The LEGO Batman Movie,,4.0
+70901,Mr. Freeze Ice Attack,The LEGO Batman Movie,,4.7
+70902,Catwoman Catcycle Chase,The LEGO Batman Movie,,4.5
+70903,The Riddler Riddle Racer,The LEGO Batman Movie,,5.0
+70904,Clayface Splat Attack,The LEGO Batman Movie,,4.5
+70905,The Batmobile,The LEGO Batman Movie,,5.0
+70906,The Joker Notorious Lowrider,The LEGO Batman Movie,,5.0
+70907,Killer Croc Tail-Gator,The LEGO Batman Movie,,
+70908, The Scuttler,The LEGO Batman Movie,,4.0
+70909,Batcave Break-In,The LEGO Batman Movie,,4.0
+70910,Scarecrow Special Delivery,The LEGO Batman Movie,,3.0
+70911,The Penguin Arctic Roller,The LEGO Batman Movie,,5.0
+70912,Arkham Asylum,The LEGO Batman Movie,,4.0
+70913,Scarecrow Fearful Face-off,The LEGO Batman Movie,,
+70914,Bane Toxic Truck Attack,The LEGO Batman Movie,,
+70915,Two-Face Double Demolition,The LEGO Batman Movie,,
+70916,The Batwing,The LEGO Batman Movie,,
+70917,The Ultimate Batmobile,The LEGO Batman Movie,,
+71017,LEGO Minifigures - The LEGO Batman Movie Series {Random bag},Collectable Minifigures,The LEGO Batman Movie,
+71017,Lobster-Lovin' Batman,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Glam Metal Batman,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Fairy Batman,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Clan of the Cave Batman,Collectable Minifigures,The LEGO Batman Movie,
+71017,Vacation Batman,Collectable Minifigures,The LEGO Batman Movie,4.5
+71017,Barbara Gordon,Collectable Minifigures,The LEGO Batman Movie,
+71017,Commissioner Gordon,Collectable Minifigures,The LEGO Batman Movie,4.0
+71017,Arkham Asylum Joker,Collectable Minifigures,The LEGO Batman Movie,
+71017,Dick Grayson,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Pink Power Batgirl,Collectable Minifigures,The LEGO Batman Movie,
+71017,Red Hood,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Eraser,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Nurse Harley Quinn,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Orca,Collectable Minifigures,The LEGO Batman Movie,4.0
+71017,Zodiac Master,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,Catman,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,March Harriet,Collectable Minifigures,The LEGO Batman Movie,4.0
+71017,Calculator,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,King Tut,Collectable Minifigures,The LEGO Batman Movie,4.0
+71017,Mime,Collectable Minifigures,The LEGO Batman Movie,5.0
+71017,LEGO Minifigures - The LEGO Batman Movie Series - Complete,Collectable Minifigures,The LEGO Batman Movie,
+71017,LEGO Minifigures - The LEGO Batman Movie - Sealed Box,Collectable Minifigures,The LEGO Batman Movie,
+71018,LEGO Minifigures - Series 17 {Random bag},Collectable Minifigures,Series 17,
+71018,Professional Surfer,Collectable Minifigures,Series 17,
+71018,Circus Strong Man,Collectable Minifigures,Series 17,
+71018,Gourmet Chef,Collectable Minifigures,Series 17,
+71018,Corn Cob Guy,Collectable Minifigures,Series 17,
+71018,Veterinarian,Collectable Minifigures,Series 17,
+71018,Hot Dog Man,Collectable Minifigures,Series 17,
+71018,Butterfly Girl,Collectable Minifigures,Series 17,
+71018,Roman Gladiator,Collectable Minifigures,Series 17,
+71018,Connoisseur,Collectable Minifigures,Series 17,
+71018,Battle Dwarf,Collectable Minifigures,Series 17,
+71018,Retro Spaceman,Collectable Minifigures,Series 17,
+71018,Yuppie,Collectable Minifigures,Series 17,
+71018,Rocket Boy,Collectable Minifigures,Series 17,
+71018,Dance Instructor,Collectable Minifigures,Series 17,
+71018,Elf Girl,Collectable Minifigures,Series 17,
+71018,{Mystery figure},Collectable Minifigures,Series 17,4.5
+71018,LEGO Minifigures - Series 17 - Complete,Collectable Minifigures,Series 17,
+71019,LEGO Minifigures - The LEGO Ninjago Movie {Random bag},Collectable Minifigures,The LEGO Ninjago Movie,
+71042,Silent Mary,Pirates of the Caribbean,Dead Men Tell No Tales,
+71250,{Ghostbusters Reboot 2},Dimensions,,
+71254,{Teen Titans Go! 1},Dimensions,,
+71255,{Teen Titans Go! 2},Dimensions,,
+71264,The LEGO Batman Movie: Play the Complete Movie,Dimensions,Story Pack,
+71266,Chase McCain,Dimensions,Fun Pack,
+71267,The Goonies Level Pack,Dimensions,Level Pack,
+71286,Michael Knight,Dimensions,Fun Pack,
+71344,Excalibur Batman,Dimensions,Fun Pack,
+71348,Hermione Granger,Dimensions,Fun Pack,
+75144,Snowspeeder,Star Wars,Ultimate Collector Series,
+75160,U-wing,Star Wars,MicroFighters,4.0
+75161,TIE Striker,Star Wars,MicroFighters,
+75162,Y-wing,Star Wars,MicroFighters,
+75163,Krennic's Imperial Shuttle,Star Wars,MicroFighters,4.0
+75164,Rebel Trooper Battle Pack,Star Wars,Rogue One,5.0
+75165,Imperial Trooper Battle Pack,Star Wars,Rogue One,5.0
+75166,First Order Transport Speeder Battle Pack,Star Wars,The Force Awakens,
+75167,Bounty Hunter Speeder Bike Battle Pack,Star Wars,Original Content,
+75168,Yoda's Jedi Starfighter,Star Wars,The Clone Wars,4.5
+75169,Duel on Naboo,Star Wars,Episode I,4.0
+75170,The Phantom,Star Wars,Rebels,4.7
+75171,Battle on Scarif,Star Wars,Rogue One,
+75172,Y-wing Starfighter,Star Wars,Rogue One,5.0
+75173,Luke's Landspeeder,Star Wars,Episode IV,3.7
+75174,Desert Skiff Escape,Star Wars,Episode VI,
+75175,A-wing Starfighter,Star Wars,Episode VI,4.0
+75176,{?},Star Wars,The Last Jedi,
+75177,{?},Star Wars,The Last Jedi,
+75178,Jakku Quadjumper,Star Wars,The Force Awakens,
+75179,{?},Star Wars,The Last Jedi,
+75180,Rathtar Escape,Star Wars,The Force Awakens,
+75182,Republic Fighter Tank,Star Wars,Episode III,
+75183,Darth Vader Transformation ,Star Wars,Episode III,
+75184,Star Wars Advent Calendar,Star Wars,Seasonal,
+75185,Tracker I,Star Wars,Original Content,
+75186,The Arrowhead,Star Wars,Original Content,
+75187,{?},Star Wars,The Last Jedi,
+75188,{?},Star Wars,The Last Jedi,
+75189,{?},Star Wars,The Last Jedi,
+75190,{?},Star Wars,The Last Jedi,
+75191,Jedi Starfighter with Hyperdrive,Star Wars,Episode II,
+75192,{?},Star Wars,,
+75193,{?},Star Wars,,
+75523,Scarif Stormtrooper,Star Wars,Buildable Figures,4.0
+75524,Chirrut Îmwe,Star Wars,Buildable Figures,5.0
+75525,Baze Malbus,Star Wars,Buildable Figures,5.0
+75526,{?},Star Wars,Buildable Figures,
+75528,{?},Star Wars,Buildable Figures,
+75529,{?},Star Wars,Buildable Figures,
+75530,{?},Star Wars,Buildable Figures,
+75531,Stormtrooper Commander,Star Wars,Buildable Figures,
+75532,Scout Trooper & Speeder Bike,Star Wars,Buildable Figures,
+75877,Mercedes-AMG GT3,Speed Champions,Mercedes,4.0
+75878,Bugatti Chiron,Speed Champions,Bugatti,
+75879,Scuderia Ferrari SF16-H,Speed Champions,Ferrari,
+75880,McLaren 720S,Speed Champions,,
+75881,2016 Ford GT & 1966 Ford GT40,Speed Champions,Ford,5.0
+75882,Ferrari FXX K & Development Center,Speed Champions,Ferrari,
+75883,Mercedes AMG Petronas Formula One Team,Speed Champions,Mercedes,
+76068,Mighty Micros: Superman vs. Bizarro,DC Comics Super Heroes,Mighty Micros,
+76069,Mighty Micros: Batman vs. Killer Moth,DC Comics Super Heroes,Mighty Micros,
+76070,Mighty Micros: Wonder Woman vs. Doomsday,DC Comics Super Heroes,Mighty Micros,
+76071,Mighty Micros: Spider-Man vs. Scorpion,Marvel Super Heroes,Mighty Micros,
+76072,Mighty Micros: Iron Man vs. Thanos,Marvel Super Heroes,Mighty Micros,
+76073,Mighty Micros: Wolverine vs. Magneto,Marvel Super Heroes,Mighty Micros,
+76075,Wonder Woman Warrior Battle,DC Comics Super Heroes,DC Extended Universe,
+76076,Captain America Jet Pursuit,Marvel Super Heroes,Comics,3.5
+76077,Iron Man: Detroit Steel Strikes,Marvel Super Heroes,Comics,5.0
+76078,Hulk vs. Red Hulk,Marvel Super Heroes,Comics,2.5
+76079,Ravager Attack,Marvel Super Heroes,Guardians of the Galaxy Vol. 2,3.0
+76080,Ayesha's Revenge,Marvel Super Heroes,Guardians of the Galaxy Vol. 2,4.0
+76081,The Milano vs. The Abilisk,Marvel Super Heroes,Guardians of the Galaxy Vol. 2,
+76082,ATM Heist Battle,Marvel Super Heroes,Spider-Man: Homecoming,
+76083,Beware the Vulture,Marvel Super Heroes,Spider-Man: Homecoming,
+76084,The Ultimate Battle for Asgard,Marvel Super Heroes,Thor: Ragnarok,
+76085,{?},DC Comics Super Heroes,DC Extended Universe,
+76086,{?},DC Comics Super Heroes,DC Extended Universe,
+76087,{?},DC Comics Super Heroes,DC Extended Universe,
+76088,Thor vs. Hulk: Arena Clash,Marvel Super Heroes,Thor: Ragnarok,
+853632,Batman Key Chain,Gear,Key Chains/The LEGO Batman Movie,
+853633,The Joker Key Chain,Gear,Key Chains/The LEGO Batman Movie,
+853634,Robin Key Chain,Gear,Key Chains/The LEGO Batman Movie,
+853635,Catwoman Key Chain,Gear,Key Chains/The LEGO Batman Movie,
+853636,Harley Quinn Key Chain,Gear,Key Chains/The LEGO Batman Movie,
+853637,Batman Up scaled Mug,Gear,Housewares,
+853638,Batman Minifigure Collector Frame,Gear,Storage,
+853639, Batman Tumbler,Gear,Housewares,
+853640,Batman 2x2 Lunch Box,Gear,Housewares,
+853642,Batman Mask,Gear,Role-Play Toys,
+853644,The Joker Mask,Gear,Role-Play Toys,
+853645,Batgirl Mask,Gear,Role-Play Toys,
+853646,Harley Quinn Hammer,Gear,Role-Play Toys,
+853647,Batman Batarang,Gear,Role-Play Toys,
+853648,Roblin Bag Charm,Gear,Bag charms,
+853649, Batman Notebook with Stud Cover,Gear,Stationery,
+853650,Movie Maker Set,The LEGO Batman Movie,,1.0
+853651,The LEGO Batman Movie Accessory Set,The LEGO Batman Movie,,
+853652,Batman Minifigure Plush,Gear,Plush,
+853653,Batgirl Minifigure Plush,Gear,Plush,
+853654,Aira the Wind Elf Key Chain,Gear,Key Chains/Elves,
+853659,City Police Handcuffs,Gear,Role-Play Toys,
+853660,The Joker Minifigure Plush,Gear,Plush,
+853665,LEGO® Iconic Tumbler,Gear,Housewares,
+853666,Shark Suit Guy Key Chain,Gear,Key Chains/Miscellaneous,
+853667,Ballerina Key Chain,Gear,Key Chains/Miscellaneous,
+853668,Iconic Drinking Bottle,Gear,Houseware,
+853669,LEGO Shopper Bag,Gear,Housewares,
+853676,Accessory Set,Nexo Knights,,
+853677,Battle Pack,Nexo Knights,Battle Packs,
+853678,Jestro s Sword,Gear,Role-Play Toys,
+853679,Forbidden Power Shield,Gear,Role-Play Toys,
+853680,Axl s Axe,Gear,Role-Play Toys,
+853681,Nexo Knights Collect and Combine Combo Powers,Gear,Storage,
+853682,Macy Key Chain,Gear,Key Chains/Nexo Knights,
+853683,Jestro Key Chain,Gear,Key Chains/Nexo Knights,
+853684,Lance Key Chain,Gear,Key Chains/Nexo Knights,
+853685,Aaron Key Chain,Gear,Key Chains/Nexo Knights,
+853686,Clay Key Chain,Gear,Key Chains/Nexo Knights,
+853687,Accessory Set,Ninjago,The Hands of Time,5.0
+853688,NINJAGO Time Blade Claw,Gear,Role-Play toys,
+853689,NINJAGO Vermillion Sword,Gear,Role-Play toys,
+853690,Kai Key Chain,Gear,Key Chains/Ninjago,
+853691,Kai Minifigure Plush,Gear,Plush,
+853692, Nya Minifigure Plush,Gear,Plush,
+3850016,Beaver,Miscellaneous,Pick A Model,
+3850017,Digger,Miscellaneous,Pick A Model,
+3850031,Puffin,Miscellaneous,Pick A Model,
+3850033,Guardsman,Miscellaneous,Pick A Model,
+5004911,Crafting Kit,Nexo Knights,Miscellaneous,
+5004913,Nexo Knights Collector Case,Gear,Storage,
+5004914,Armor Pod,Nexo Knights,,
+5004915,Master Wu keychain,The LEGO Ninjago Movie,Promotional,
+5004928,Kiss Kiss Tuxedo Batman,Gear,Key Chains/The LEGO Batman Movie,5.0
+5004929,Batman Battle Pod,The LEGO Batman Movie,Promotional,
+5004930,Accessory pack,The LEGO Batman Movie,Promotional,5.0
+5004931,Birthday Card,Promotional,,
+5004932,Travel Building Suitcase,Miscellaneous,,
+5005114,Aaron Kids Buildable Watch,Gear,Watches/Clocks,
+5005116,Clay Kids Buildable Watch,Gear,Watches/Clocks,
+5005119,Jay Kids Buildable Watch,Gear,Watches/Clocks,
+5005120,Lloyd Kids Buildable Watch,Gear,Watches/Clocks,
+5005122,Kai Kids Buildable Watch,Gear,Watches/Clocks,
+5005167,Stormtrooper Minifigure Link Watch,Gear,Watches/Clocks,
+5005175,Batman Hydration Bottle,Gear,Housewares,
+5005207,Batman Lunch Set,Gear,Housewares,
+5005208,Collector Box,Gear,Storage,
+5005209,Minifigure Display Case,Gear,Storage,
+5005219,Batman Minifigure Link Watch,Gear,Watches/Clocks,
+5005220,Robin Minifigure Link Watch,Gear,Watches/Clocks,
+5005222,THE LEGO® BATMAN MOVIE Batman™ Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005223,THE LEGO® BATMAN MOVIE Robin™ Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005224,Batgirl Minifigure Link Watch,Gear,Watches/Clocks,
+5005226,THE LEGO® BATMAN MOVIE Batgirl™ Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005227,The Joker Minifigure Link Watch,Gear,Watches/Clocks,
+5005228,THE LEGO® BATMAN MOVIE Harley Quinn™ Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005229,THE LEGO® BATMAN MOVIE The Joker™ Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005299,Batgirl Key Light,Gear,Lights,
+5005301,Harley Quinn Key Light,Gear,Lights,
+5005317,Easter Bunny Batman Key Light,Gear,Lights,
+5005320,Batman Prestige Costume,Gear,Clothing,
+5005321,Batgirl Prestige Costume,Gear,Clothing,
+5005333,Batman Minifigure Link Watch,Gear,Watches/Clocks,
+5005334,Robin Minifigure Link Watch,Gear,Watches/Clocks,
+5005335,Batman Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005336,Batgirl Minifigure Link Watch,Gear,Watches/Clocks,
+5005337,The Joker Minifigure Link Watch,Gear,Watches/Clocks,
+5005338,Harley Quinn Minifigure Alarm Clock,Gear,Watches/Clocks,
+5005345,Ultimate Vehicle Kit,The LEGO Batman Movie,Virtual Product Collection,
+,Batman,The LEGO Batman Movie,Magazine Gift,
+,The Joker,The LEGO Batman Movie,Magazine Gift,
+,Detention Block Rescue,Star Wars,,
+,Policeman and crook,City,Magazine Gift,
+,Workman and wheelbarrow,City,Magazine Gift,
+,Mr. Spry and His Lemonade Stand,Elves,Magazine Gift,
+,Bear in Cave,Friends,Magazine gift,
+,Kitten Felix,Friends,Magazine gift,
+,Fruit Bar,Friends,Magazine gift,
+,The LEGO BATMAN MOVIE: The Making of the Movie,Books,Dorling Kindersley,5.0
+,"How to Build Brick Cars: Detailed LEGO Designs for Sports Cars, Race Cars, and Muscle Cars",Books,Motorbooks,
+,The LEGO Batman Movie: Chaos in Gotham City,Books,Scholastic,
+,Brick Buildings: 40 Clever & Creative Ideas to Make from Classic LEGO,Books,Barron's Educational Series,
+,Ultimate LEGO Star Wars: Characters Creatures Locations Technology Vehicles,Books,Dorling Kindersley,
+,The LEGO BATMAN MOVIE: The Essential Guide,Books,Dorling Kindersley,
+,DC Comics Super Heroes: The Awesome Guide,Books,Dorling Kindersley,
+,NEXO KNIGHTS Build Your Own Adventure,Books,Dorling Kindersley,
+,DC Comics Super Heroes Build Your Own Adventure,Books,Dorling Kindersley,
+,The LEGO NINJAGO MOVIE: The Essential Guide,Books,Dorling Kindersley,
+,The LEGO NINJAGO MOVIE: The Making of the Movie,Books,Dorling Kindersley,
+,NEXO KNIGHTS Character Encyclopedia,Books,Dorling Kindersley,
+,The LEGO BATMAN MOVIE: The Essential Collection,Books,Dorling Kindersley,
+,LEGO: Absolutely Everything You Need to Know,Books,Dorling Kindersley,
+,Build It! Things That Fly,Books,Graphic Arts Books,
+,Build It! Things That Float,Books,Graphic Arts Books,
+,Build It! Things That Go,Books,Graphic Arts Books,
+,"The LEGO Adventure Book, Vol. 4: Monsters, Mecha & More!",Books,No Starch Press,
+,Epic LEGO Adventures with Bricks You Already Have,Books,Page Street Publishing,
+,Building Amazing Creations: Sean Kenney's Art with Lego Bricks,Books,Henry Holt & Co.,
+,Beasts from Bricks: Amazing LEGO Designs for Animals from Around the World,Books,Quarry,
+,The Streets of Brickingdon,Books,Spiderwize,5.0
+,"Tips, Tricks & Building Techniques: The Big Unofficial LEGO Builders Book",Books,Heel-Verlag,
+,LEGO Tips for Kids: Minions ,Books,Heel-Verlag,
+,LEGO Tips for Kids: Transformers,Books,Heel-Verlag,
+,Mini Batmobile,The LEGO Batman Movie,Promotional,
+,Clay,Nexo Knights,Magazine Gift,
+,Merlok 2.0,Nexo Knights,Magazine Gift,
+,Robin,Nexo Knights,Magazine Gift,
+,Lance's Cart,Nexo Knights,Magazine Gift,
+,Jay,Ninjago,Magazine Gift,
+,Cole,Ninjago,Magazine Gift,
+,Kai,Ninjago,Magazine Gift,
+,Zane,Ninjago,Magazine Gift,
+,Flash Speeder,Star Wars,Magazine Gift,
+,Kanan Jarrus,Star Wars,Magazine Gift,
+,The Ghost,Star Wars,Magazine Gift,
+,Imperial Combat Driver,Star Wars,Magazine Gift,
+,TIE Advanced,Star Wars,Magazine Gift,
+,Flying Batmobile,The LEGO Batman Movie,Promotional,
+,Monster,Nexo Knights,Miscellaneous,
