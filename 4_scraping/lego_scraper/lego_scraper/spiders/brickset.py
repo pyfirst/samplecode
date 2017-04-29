@@ -5,7 +5,7 @@ import scrapy
 class BricksetSpider(scrapy.Spider):
     name = "brickset"
     allowed_domains = ["brickset.com"]
-    start_urls = ['https://brickset.com/sets/year-2017']
+    start_urls = ['https://brickset.com/sets/year-2016']
 
     def parse(self, response):
         for brickset in response.css('article.set'):
@@ -23,6 +23,7 @@ class BricksetSpider(scrapy.Spider):
                 'image': brickset.css('img ::attr(src)').re_first('(.*)\?'),
                 'theme': meta.css('.tags a')[1].css('a::text').extract_first(),
                 'subtheme': meta.css('.tags a.subtheme::text').extract_first(),
+                'year': brickset.css('a.year::text').extract_first(),
                 'rating': meta.css('.rating::attr("title")').extract_first(),
                 'pieces': meta.xpath('.//dt[text()="Pieces"]/following-sibling::dd/a/text()').extract_first(),
                 'minifigs': meta.xpath('.//dt[text()="Minifigs"]/following-sibling::dd/a/text()').extract_first(),
