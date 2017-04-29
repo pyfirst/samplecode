@@ -5,7 +5,7 @@ import scrapy
 class BricksetSpider(scrapy.Spider):
     name = "brickset"
     allowed_domains = ["brickset.com"]
-    start_urls = ['https://brickset.com/sets/year-2016']
+    start_urls = ['https://brickset.com/sets/year-2017']
 
     def parse(self, response):
         for brickset in response.css('article.set'):
@@ -28,6 +28,8 @@ class BricksetSpider(scrapy.Spider):
                 'minifigs': meta.xpath('.//dt[text()="Minifigs"]/following-sibling::dd/a/text()').extract_first(),
                 'us_price': us_price,
                 'eu_price': eu_price,
+                'owner': brickset.css('dl.admin dd').re_first('(\d+) own this set'),
+                'want_it': brickset.css('dl.admin dd').re_first('(\d+) want it'),
             }
         next_url = response.css('li.next a::attr("href")').extract_first()
         if next_url:
