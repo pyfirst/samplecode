@@ -1,9 +1,9 @@
 number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 10255,Assembly Square,https://images.brickset.com/sets/small/10255-1.jpg,Advanced Models,Modular Buildings,5.0,4002,9,279.99,239.99
-10256,Fairground Carousel,,Advanced Models,Fairground,,,,,
+10257,Carousel,https://images.brickset.com/sets/small/10257-1.jpg,Advanced Models,Fairground,,,,199.99,179.99
 10703,Creative Builder Box,https://images.brickset.com/sets/small/10703-1.jpg,Classic,,,502,,,24.99
 10704,Creative Box,https://images.brickset.com/sets/small/10704-1.jpg,Classic,,,900,,,34.99
-10706,Blue Creative Box,https://images.brickset.com/sets/small/10706-1.jpg,Classic,,3.0,78,,4.99,4.99
+10706,Blue Creative Box,https://images.brickset.com/sets/small/10706-1.jpg,Classic,,4.0,78,,4.99,4.99
 10707,Red Creative Box,https://images.brickset.com/sets/small/10707-1.jpg,Classic,,,55,,4.99,4.99
 10708,Green Creative Box,https://images.brickset.com/sets/small/10708-1.jpg,Classic,,,66,,4.99,4.99
 10709,Orange Creative Box,https://images.brickset.com/sets/small/10709-1.jpg,Classic,,,60,,4.99,4.99
@@ -39,7 +39,7 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 10843,{Mickey Mouse in racing car},https://images.brickset.com/sets/small/10843-1.jpg,Duplo,Mickey and the Roadster Racers,,,,,
 10844,Minnie Mouse Bow-tique,https://images.brickset.com/sets/small/10844-1.jpg,Duplo,,,,,,
 10845,My First Carousel,https://images.brickset.com/sets/small/10845-1.jpg,Duplo,,,24,3,24.99,24.99
-10846,{?},,Duplo,,,,,,
+10846,Flo's Café,https://images.brickset.com/sets/small/10846-1.jpg,Duplo,Cars 3,,,,,
 10847,My First Number Train,https://images.brickset.com/sets/small/10847-1.jpg,Duplo,,,23,2,19.99,19.99
 10848,My First Building Blocks,https://images.brickset.com/sets/small/10848-1.jpg,Duplo,,,80,,,19.99
 10849,My First Plane,https://images.brickset.com/sets/small/10849-1.jpg,Duplo,,,10,,4.99,4.99
@@ -49,8 +49,8 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 10853,Abundant Wildlife Creative Building Set,https://images.brickset.com/sets/small/10853-1.jpg,Duplo,,,75,,,24.99
 10854,Creative Box,https://images.brickset.com/sets/small/10854-1.jpg,Duplo,,,120,,,34.99
 10855,Cinderella's Magical Castle,https://images.brickset.com/sets/small/10855-1.jpg,Duplo,Disney Princess,,56,,34.99,34.99
-10856,{?},,Duplo,,,,,,
-10857,{?},,Duplo,,,,,,
+10856,Mater's Shed,https://images.brickset.com/sets/small/10856-1.jpg,Duplo,Cars 3,,,,,
+10857,Piston Cup Race,https://images.brickset.com/sets/small/10857-1.jpg,Duplo,Cars 3,,,,,
 10952,{?},,Duplo,,,,,,
 11913,Nexo Knights: Build Your Own Adventure parts ,,Nexo Knights,Miscellaneous,,,,,
 17101,Creative Toolbox,https://images.brickset.com/sets/small/17101-1.jpg,Boost,,,,,159.99,159.99
@@ -69,7 +69,7 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 21136,The Ocean Monument,https://images.brickset.com/sets/small/21136-1.jpg,Minecraft,Minifig-scale,,,,119.99,
 21137,The Mountain Cave,,Minecraft,Minifig-scale,,,,,
 21308,Adventure Time,https://images.brickset.com/sets/small/21308-1.jpg,Ideas,Licensed,,495,,49.99,49.99
-21309,Apollo Saturn V,,Ideas,,,,,,
+21309,NASA Apollo Saturn V,https://images.brickset.com/sets/small/21309-1.jpg,Ideas,,,,,119.99,119.99
 30323,My First Fish,https://images.brickset.com/sets/small/30323-1.jpg,Duplo,,,,,,
 30324,My Town {Random Bag},https://images.brickset.com/sets/small/30324-1.jpg,Duplo,,,,,,
 30324,My Town - Female,https://images.brickset.com/sets/small/30324-1.jpg,Duplo,,,3,1,,
@@ -82,7 +82,7 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 30352,Police Car,https://images.brickset.com/sets/small/30352-1.jpg,City,Police,4.0,,1,,
 30353,Tractor,https://images.brickset.com/sets/small/30353-1.jpg,City,Construction,,,,,
 30354,Hot Rod ,https://images.brickset.com/sets/small/30354-1.jpg,City,,3.0,38,1,,
-30355,Jungle ATV,,City,Jungle,,,,,
+30355,Jungle ATV,https://images.brickset.com/sets/small/30355-1.jpg,City,Jungle,,,,,
 30376,Knighton Rider,https://images.brickset.com/sets/small/30376-1.jpg,Nexo Knights,Miscellaneous,,,1,,
 30377,Motor Horse,https://images.brickset.com/sets/small/30377-1.jpg,Nexo Knights,,,,,,
 30378,Shrunken Headquarters,https://images.brickset.com/sets/small/30378-1.jpg,Nexo Knights,Miscellaneous,,,1,,
@@ -104,13 +104,13 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 30546,Krypto Saves the Day,https://images.brickset.com/sets/small/30546-1.jpg,DC Super Hero Girls,Promotional,,55,,,
 30551,Cinderella's Kitchen,https://images.brickset.com/sets/small/30551-1.jpg,Disney,Cinderella,,,1,,
 30607,Disco Batman - Tears of Batman ,https://images.brickset.com/sets/small/30607-1.jpg,The LEGO Batman Movie,Promotional,3.0,13,2,,
-30611,R2-D2,https://images.brickset.com/sets/small/30611-1.jpg,Star Wars,Promotional,,,,,
+30611,R2-D2,https://images.brickset.com/sets/small/30611-1.jpg,Star Wars,Promotional,,70,,,
 30612,Batgirl,https://images.brickset.com/sets/small/30612-1.jpg,The LEGO Batman Movie,Promotional,,9,,,
 31054,Blue Express ,https://images.brickset.com/sets/small/31054-1.jpg,Creator,,5.0,71,,4.99,4.99
 31055,Red Racer,https://images.brickset.com/sets/small/31055-1.jpg,Creator,,,72,,4.99,4.99
 31056,Green Cruiser,https://images.brickset.com/sets/small/31056-1.jpg,Creator,,,122,,9.99,9.99
 31057,Air Blazer,https://images.brickset.com/sets/small/31057-1.jpg,Creator,,,102,,9.99,9.99
-31058,Mighty Dinosaurs,https://images.brickset.com/sets/small/31058-1.jpg,Creator,,,174,,14.99,14.99
+31058,Mighty Dinosaurs,https://images.brickset.com/sets/small/31058-1.jpg,Creator,,4.0,174,,14.99,14.99
 31059,Sunset Street Bike,https://images.brickset.com/sets/small/31059-1.jpg,Creator,,,194,,19.99,19.99
 31060,Airshow Aces,https://images.brickset.com/sets/small/31060-1.jpg,Creator,,5.0,246,,19.99,19.99
 31062,Robo Explorer,https://images.brickset.com/sets/small/31062-1.jpg,Creator,,5.0,205,,19.99,17.99
@@ -138,7 +138,7 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 40244,Dragonfly,,Promotional,Monthly Mini Model Build,,,,,
 40251,Mini Piggy Bank,,Creator,,,,,,
 40252,Mini Volkswagen Beetle,https://images.brickset.com/sets/small/40252-1.jpg,Creator,,5.0,141,,,
-40256,Create The World,,City,,,,,,
+40256,Create The World,https://images.brickset.com/sets/small/40256-1.jpg,Creator,,,,,,
 40265,Tic-Tac-Toe,https://images.brickset.com/sets/small/40265-1.jpg,Friends,,,,,,
 40266,Storage Box,https://images.brickset.com/sets/small/40266-1.jpg,Friends,Accessories,,105,,,
 40267,{Cake and door},https://images.brickset.com/sets/small/40267-1.jpg,Duplo,,,,,,
@@ -211,11 +211,11 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 41594,Captain Armando Salazar,https://images.brickset.com/sets/small/41594-1.jpg,BrickHeadz,Disney,,118,,9.99,9.99
 41595,Belle,https://images.brickset.com/sets/small/41595-1.jpg,BrickHeadz,Disney,,139,,9.99,9.99
 41596,Beast,https://images.brickset.com/sets/small/41596-1.jpg,BrickHeadz,Disney,,116,,9.99,9.99
-42057,Ultralight Helicopter,https://images.brickset.com/sets/small/42057-1.jpg,Technic,,,199,,19.99,14.99
+42057,Ultralight Helicopter,https://images.brickset.com/sets/small/42057-1.jpg,Technic,,5.0,199,,19.99,14.99
 42058,Stunt Bike,https://images.brickset.com/sets/small/42058-1.jpg,Technic,,5.0,140,,19.99,19.99
 42059,Stunt Truck,https://images.brickset.com/sets/small/42059-1.jpg,Technic,,5.0,142,,19.99,19.99
 42060,Roadwork Crew,https://images.brickset.com/sets/small/42060-1.jpg,Technic,,4.0,365,,29.99,19.99
-42061,Telehandler,https://images.brickset.com/sets/small/42061-1.jpg,Technic,,4.0,260,,39.99,29.99
+42061,Telehandler,https://images.brickset.com/sets/small/42061-1.jpg,Technic,,4.3,260,,39.99,29.99
 42062,Container Yard,https://images.brickset.com/sets/small/42062-1.jpg,Technic,,,631,,,49.99
 42063,BMW R 1200 GS Adventure,https://images.brickset.com/sets/small/42063-1.jpg,Technic,,,603,,59.99,49.99
 42064,Ocean Explorer,https://images.brickset.com/sets/small/42064-1.jpg,Technic,,,1327,,,89.99
@@ -282,20 +282,20 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 70366,Battle Suit Lance,https://images.brickset.com/sets/small/70366-1.jpg,Nexo Knights,Battle Suits,,83,1,9.99,9.99
 70372,Combo NEXO Powers Wave 1,https://images.brickset.com/sets/small/70372-1.jpg,Nexo Knights,Combo NEXO Powers,4.0,10,,3.99,3.99
 70373,Combo NEXO Powers Wave 2,https://images.brickset.com/sets/small/70373-1.jpg,Nexo Knights,Combo NEXO Powers,,,,3.99,3.99
-70606,Spinjitzu Training,,The LEGO Ninjago Movie,,,,,,
-70607,Ninjago City Chase,,The LEGO Ninjago Movie,,,,,,
-70608,Master Falls,,The LEGO Ninjago Movie,,,,,,
-70609,Manta Ray Bomber,,The LEGO Ninjago Movie,,,,,,
+70606,Spinjitzu Training,,The LEGO Ninjago Movie,,,,,,9.99
+70607,Ninjago City Chase,,The LEGO Ninjago Movie,,,,,,19.99
+70608,Master Falls,,The LEGO Ninjago Movie,,,,,,34.99
+70609,Manta Ray Bomber,,The LEGO Ninjago Movie,,,,,,34.99
 70610,{?},,The LEGO Ninjago Movie,,,,,,
-70611,Water Strider,,The LEGO Ninjago Movie,,,,,,
-70612,Green Ninja Mech Dragon,,The LEGO Ninjago Movie,,,,,,
-70613,{Garmadon's Shark Mech},,The LEGO Ninjago Movie,,,,,,
-70614,Lightning Jet,,The LEGO Ninjago Movie,,,,,,
-70615,Fire Mech,,The LEGO Ninjago Movie,,,,,,
-70616,{Zane Tank},,The LEGO Ninjago Movie,,,,,,
-70617,Temple of The Ultimate,,The LEGO Ninjago Movie,,,,,,
-70618,Destiny's Bounty,,The LEGO Ninjago Movie,,,,,,
-70620,{D2C Ninjago City},,The LEGO Ninjago Movie,,,,,,
+70611,Water Strider,,The LEGO Ninjago Movie,,,,,,44.99
+70612,Green Ninja Mech Dragon,,The LEGO Ninjago Movie,,,,,,54.99
+70613,{?},,The LEGO Ninjago Movie,,,,,,
+70614,Lightning Jet,,The LEGO Ninjago Movie,,,,,,69.99
+70615,Fire Mech,,The LEGO Ninjago Movie,,,,,,79.99
+70616,{?},,The LEGO Ninjago Movie,,,,,,
+70617,Temple of The Ultimate,,The LEGO Ninjago Movie,,,,,,129.99
+70618,Destiny's Bounty,,The LEGO Ninjago Movie,,,,,,169.99
+70620,{?},,The LEGO Ninjago Movie,,,,,299.99,
 70621,The Vermillion Attack,https://images.brickset.com/sets/small/70621-1.jpg,Ninjago,The Hands of Time,,83,3,9.99,9.99
 70622,Desert Lightning,https://images.brickset.com/sets/small/70622-1.jpg,Ninjago,The Hands of Time,4.0,201,3,19.99,19.99
 70623,Destiny's Shadow,https://images.brickset.com/sets/small/70623-1.jpg,Ninjago,The Hands of Time,5.0,360,3,29.99,29.99
@@ -313,7 +313,7 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 70907,Killer Croc Tail-Gator,https://images.brickset.com/sets/small/70907-1.jpg,The LEGO Batman Movie,,,460,4,69.99,69.99
 70908, The Scuttler,https://images.brickset.com/sets/small/70908-1.jpg,The LEGO Batman Movie,,4.0,775,6,79.99,79.99
 70909,Batcave Break-In,https://images.brickset.com/sets/small/70909-1.jpg,The LEGO Batman Movie,,4.0,1047,7,99.99,99.99
-70910,Scarecrow Special Delivery,https://images.brickset.com/sets/small/70910-1.jpg,The LEGO Batman Movie,,3.0,204,3,19.99,24.99
+70910,Scarecrow Special Delivery,https://images.brickset.com/sets/small/70910-1.jpg,The LEGO Batman Movie,,3.5,204,3,19.99,24.99
 70911,The Penguin Arctic Roller,https://images.brickset.com/sets/small/70911-1.jpg,The LEGO Batman Movie,,5.0,305,2,29.99,34.99
 70912,Arkham Asylum,https://images.brickset.com/sets/small/70912-1.jpg,The LEGO Batman Movie,,4.0,1628,13,149.99,149.99
 70913,Scarecrow Fearful Face-off,https://images.brickset.com/sets/small/70913-1.jpg,The LEGO Batman Movie,,,,,14.99,17.99
@@ -360,7 +360,7 @@ number,name,image,theme,subtheme,rating,pieces,minifigs,us_price,eu_price
 71018,Rocket Boy,https://images.brickset.com/sets/small/71018-13.jpg,Collectable Minifigures,Series 17,,,,,
 71018,Dance Instructor,https://images.brickset.com/sets/small/71018-14.jpg,Collectable Minifigures,Series 17,,,,,
 71018,Elf Girl,https://images.brickset.com/sets/small/71018-15.jpg,Collectable Minifigures,Series 17,,,,,
-71018,{Mystery figure},,Collectable Minifigures,Series 17,4.5,,,,
+71018,Highwayman,,Collectable Minifigures,Series 17,4.5,,,,
 71018,LEGO Minifigures - Series 17 - Complete,https://images.brickset.com/sets/small/71018-17.jpg,Collectable Minifigures,Series 17,,,,,
 71019,LEGO Minifigures - The LEGO Ninjago Movie {Random bag},,Collectable Minifigures,The LEGO Ninjago Movie,,,,,
 71042,Silent Mary,https://images.brickset.com/sets/small/71042-1.jpg,Pirates of the Caribbean,Dead Men Tell No Tales,,2294,8,199.99,199.99
