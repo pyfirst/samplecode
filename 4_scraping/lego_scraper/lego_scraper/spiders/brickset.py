@@ -5,7 +5,7 @@ import scrapy
 class BricksetSpider(scrapy.Spider):
     name = "brickset"
     allowed_domains = ["brickset.com"]
-    start_urls = ['https://brickset.com/sets/year-2017']
+    start_urls = ['https://brickset.com/sets/year-2016']
 
     def parse(self, response):
         for brickset in response.css('article.set'):
