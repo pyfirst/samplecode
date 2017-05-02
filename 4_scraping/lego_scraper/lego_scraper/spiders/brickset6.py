@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 '''
-完成形: XPathでピース数、ミニフィグ数、価格を取得する
+他のデータを取得する
 '''
 
 import scrapy
 
 
 class BricksetSpider(scrapy.Spider):
-    name = "brickset"
+    name = "brickset6"
     allowed_domains = ["brickset.com"]
     start_urls = ['https://brickset.com/sets/year-2016']
 
@@ -18,9 +18,6 @@ class BricksetSpider(scrapy.Spider):
             number = meta.css('h1 span::text').re_first(r'(.+): ')
             # セット名を取得
             name = brickset.css('div.highslide-caption h1 a::text').extract_first()
-            price = meta.xpath('.//dt[text()="RRP"]/following-sibling::dd/text()')
-            us_price = price.re_first('\$([\d+\.\d+]+)')
-            eu_price = price.re_first('([\d+\.\d+]+)€')
             yield {
                 'number': number,
                 'name': name,
@@ -29,10 +26,6 @@ class BricksetSpider(scrapy.Spider):
                 'subtheme': meta.css('.tags a.subtheme::text').extract_first(),
                 'year': meta.css('a.year::text').extract_first(),
                 'rating': meta.css('.rating::attr(title)').extract_first(),
-                'pieces': meta.xpath('.//dt[text()="Pieces"]/following-sibling::dd/a/text()').extract_first(),
-                'minifigs': meta.xpath('.//dt[text()="Minifigs"]/following-sibling::dd/a/text()').extract_first(),
-                'us_price': us_price,
-                'eu_price': eu_price,
                 'owner': brickset.css('dl.admin dd').re_first('(\d+) own this set'),
                 'want_it': brickset.css('dl.admin dd').re_first('(\d+) want it'),
             }
