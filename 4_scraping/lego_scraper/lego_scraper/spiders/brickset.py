@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
+リスト4.17
 完成形: XPathでピース数、ミニフィグ数、価格を取得する
 '''
 
@@ -17,7 +18,7 @@ class BricksetSpider(scrapy.Spider):
             # セット番号を取得
             number = meta.css('h1 span::text').re_first(r'(.+): ')
             # セット名を取得
-            name = brickset.css('div.highslide-caption h1 a::text').extract_first()
+            name = brickset.css('div.highslide-caption h1::text').extract_first()
             price = meta.xpath('.//dt[text()="RRP"]/following-sibling::dd/text()')
             yield {
                 'number': number,

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
-scrapy genspider brickset0 brickset.com で作成した直後のファイル
+リスト4.5
+scrapy genspider brickset brickset.com で作成した直後のファイル
 '''
 
 import scrapy

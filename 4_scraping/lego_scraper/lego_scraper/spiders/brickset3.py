@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
-セット番号を取得する
+リスト4.9
+セット番号を取り出す
 '''
 
 import scrapy
@@ -17,6 +18,6 @@ class BricksetSpider(scrapy.Spider):
             # セット番号を取得
             number = meta.css('h1 span::text').re_first(r'(.+): ')
             # セット名を取得
-            name = brickset.css('div.highslide-caption h1 a::text').extract_first()
+            name = brickset.css('div.highslide-caption h1::text').extract_first()
             print(number, name)
 

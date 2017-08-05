@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
-セット名称を取得する
+リスト4.8
+セット名称を取り出す
 '''
 
 import scrapy
@@ -13,4 +14,4 @@ class BricksetSpider(scrapy.Spider):
 
     def parse(self, response):
         for brickset in response.css('article.set'):
-            print(brickset.css('div.highslide-caption h1 a::text').extract_first())
+            print(brickset.css('div.highslide-caption h1::text').extract_first())

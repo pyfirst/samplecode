@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
+リスト4.10
 yieldキーワードで取得した情報を返す
 '''
 
@@ -17,7 +18,7 @@ class BricksetSpider(scrapy.Spider):
             # セット番号を取得
             number = meta.css('h1 span::text').re_first(r'(.+): ')
             # セット名を取得
-            name = brickset.css('div.highslide-caption h1 a::text').extract_first()
+            name = brickset.css('div.highslide-caption h1::text').extract_first()
             yield {
                 'number': number,
                 'name': name,
