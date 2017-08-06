@@ -1,4 +1,4 @@
-# pymook-samplecode
+# Pythonエンジニア ファーストブックのサンプルコード
 
 ```sh
 $ python3 -m venv env
