@@ -30,8 +30,8 @@ class BricksetSpider(scrapy.Spider):
                 'rating': meta.css('.rating::attr(title)').extract_first(),
                 'pieces': meta.xpath('.//dt[text()="Pieces"]/following-sibling::dd').css('::text').extract_first(),
                 'minifigs': meta.xpath('.//dt[text()="Minifigs"]/following-sibling::dd').css('::text').extract_first(),
-                'us_price': price.re_first('\$([\d+\.\d+]+)'),
-                'eu_price': price.re_first('([\d+\.\d+]+)€'),
+                'us_price': price.re_first('\$(\d+\.\d+)'),
+                'eu_price': price.re_first('(\d+\.\d+)€'),
                 'owner': brickset.css('dl.admin dd').re_first('(\d+) own this set'),
                 'want_it': brickset.css('dl.admin dd').re_first('(\d+) want it'),
             }
