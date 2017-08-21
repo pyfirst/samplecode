@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h2 class="page-header">アイテムの更新</h2>
+
+        <div class="col-md-5">
+
+            <form action="{% url 'item_edit' item.id %}" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" class="btn btn-default" value="更新する"/>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
