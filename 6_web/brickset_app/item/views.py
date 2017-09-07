@@ -68,7 +68,7 @@ def add_to_wish_list(request, item_id):
 
 @login_required
 @require_POST
-def remove_from_wish_list(request, item_id):
+def delete_from_wish_list(request, item_id):
     # itemの取得（itemが存在しない場合404を表示）
     item = get_object_or_404(Item, pk=item_id)
 

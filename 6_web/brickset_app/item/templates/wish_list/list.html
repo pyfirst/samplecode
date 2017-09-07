@@ -30,7 +30,7 @@
                         <td>{{ item.us_price }}</td>
                         <td>{{ item.rating }}</td>
                         <td>
-                        <form action="{% url 'item_remove_wish_list' item.id %}" method="post">
+                        <form action="{% url 'item_delete_wish_list' item.id %}" method="post">
                             {% csrf_token %}
                             <p><input value="欲しいものリストから削除" type="submit"/></p>
                         </form>

@@ -3,9 +3,6 @@ from django.db import models
 
 
 class Item(models.Model):
-    """
-    レゴデータを表すモデル
-    """
     set_number = models.IntegerField('セット番号')
     name = models.CharField('名前', max_length=255)
     image_url = models.URLField('画像URL', blank=True)
@@ -23,9 +20,6 @@ class Item(models.Model):
 
 
 class WishList(models.Model):
-    """
-    欲しいものリストを表すモデル
-    """
     user = models.OneToOneField(User)
     items = models.ManyToManyField(Item)
     created_at = models.DateTimeField('作成日時', auto_now_add=True)
