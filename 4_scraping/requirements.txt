@@ -1,4 +1,4 @@
 beautifulsoup4==4.6.0
 requests==2.18.3
-Scrapy==1.4.0
+Scrapy==1.8.1
 jupyter==1.0.0
